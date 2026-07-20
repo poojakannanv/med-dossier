@@ -24,7 +24,7 @@ Exact steps to run MedDossier locally, run the tests, and deploy to free hosting
    ```
 7. Insert your username and password, and add a database name (`meddossier`) before the query string:
    ```
-   mongodb+srv://myuser:mypass@cluster0.xxxxx.mongodb.net/meddossier?retryWrites=true&w=majority
+   mongodb+srv://<your-username>:<your-password>@cluster0.xxxxx.mongodb.net/meddossier?retryWrites=true&w=majority
    ```
 
 ## 2. Backend environment
