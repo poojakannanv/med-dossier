@@ -4,6 +4,8 @@
 
 MedDossier helps regulatory affairs teams track drug product dossiers, CTD module status, document versions, deadlines and audit trails in one place, replacing the spreadsheets, shared drives and email chains most teams still rely on.
 
+**Live demo:** [med-dossier.vercel.app](https://med-dossier.vercel.app) (the API runs on a free tier that sleeps when idle, so the first request can take up to a minute)
+
 > This is an educational and portfolio project. It is inspired by the workflows of commercial Regulatory Information Management platforms such as Veeva Vault RIM, LORENZ docuBridge and Ennov, and is built entirely from the publicly published ICH CTD format (ich.org). It is not a commercial replacement for any of those systems, and it uses no proprietary data, templates or processes from any employer.
 
 ---
@@ -46,12 +48,23 @@ The enterprise market solves this with platforms like Veeva Vault RIM (used to m
 
 ## Screenshots
 
-*(Screenshots to be added)*
+All data shown is fictional demo data.
 
-- Dashboard with charts and deadlines: `docs/screenshots/dashboard.png`
-- Submission detail with CTD module checklist: `docs/screenshots/submission-detail.png`
-- Products list with search and filters: `docs/screenshots/products.png`
-- Audit log viewer: `docs/screenshots/audit.png`
+**Dashboard with charts and deadlines**
+
+![Dashboard with status and monthly charts, upcoming deadlines and recent activity](docs/screenshots/dashboard.png)
+
+**Submissions with progress tracking**
+
+![Submissions list with authority, type, target date, progress bar and status](docs/screenshots/submissions.png)
+
+**Products list with search and filters**
+
+![Drug products master record list](docs/screenshots/products.png)
+
+**Audit log viewer**
+
+![Audit log of every create, update and login event](docs/screenshots/audit.png)
 
 ## Quick start
 
