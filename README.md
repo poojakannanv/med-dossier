@@ -165,4 +165,4 @@ Architecture decisions, request lifecycles and likely interview questions are do
 
 ## Licence
 
-MIT. Built by Pooja Kannan as a portfolio project.
+[MIT](LICENSE). Built by Pooja Kannan as a portfolio project.
